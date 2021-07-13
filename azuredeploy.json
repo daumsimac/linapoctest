@@ -93,14 +93,14 @@
   "variables": {
     "imagePublisher": "Canonical",
     "imageOffer": "UbuntuServer",
-    "nicName": "myVMNic",
-    "nsgName": "myNSG",
-    "vmName": "Tomcat",
+    "nicName": "tpVMNic",
+    "nsgName": "tpNSG",
+    "vmName": "TestPlanVM",
     "addressPrefix": "10.0.0.0/16",
     "subnetName": "Subnet",
     "subnetPrefix": "10.0.0.0/24",
-    "publicIPAddressName": "myPublicIP",
-    "virtualNetworkName": "MyVNET",
+    "publicIPAddressName": "tpPublicIP",
+    "virtualNetworkName": "TpVNET",
     "linuxConfiguration": {
       "disablePasswordAuthentication": true,
       "ssh": {
@@ -112,7 +112,7 @@
         ]
       }
     },
-    "networkSecurityGroupName": "default-NSG"
+    "networkSecurityGroupName": "TP-default-NSG"
   },
   "resources": [
     {
